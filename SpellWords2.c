@@ -387,13 +387,13 @@ void EnglishLook() {
 
 //主程序
 int main() {
-	system("title 打字+单词拼写+认知系统-(V-0.3)");
+	system("title 打字+单词拼写+认知系统-(V-2.0)");
 	system("color 8b");
 	int Select = 0;
 	srand((unsigned)time(NULL));
 	int ErrorCheck(char x[50]);
 	//输入模块
-	printf("-----------------正在加载打字&单词拼写&认知系统-(V-0.3)----------------\n");
+	printf("-----------------正在加载打字&单词拼写&认知系统-(V-2.0)----------------\n");
 	system("color 0b");
 	sleep(1);
 	printf("如果你想进入随机字符拼写请输入1\n进入单词拼写输入2\n(目前单词库含量有100个四级英语单词)\n如果想进入单词学习请输入3\n退出请输入其他任意数字:");
